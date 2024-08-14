@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+    <style>
+        .head{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        ul{
+            list-style-type: square;            
+        }
+        summary{
+            user-select: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <summary>
+        <details>
+            <div class="list">
+                <h1>Technologies</h1>
+                <ol reversed="reversed" start="2" type="I">
+                    <li class="head">Frontend</li>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>REACT</li>
+                    </ul>
+                    <li class="head">Backend</li>
+                    <ul>
+                        <li>Node</li>
+                        <li>Deno</li>
+                        <li>Django</li>
+                    </ul>
+                </ol>
+            </div>
+        </details>
+        <hr style="border: 3px solid black;">
+        <dl>
+            <dt>Coffee</dt>
+            <dd>Black Coffee With .....</dd>
+            <dt>Tea Herbal</dt>
+            <dd>Lorem ipsum dolor sit amet consectetur.</dd>
+            <dt>Cold Coffee</dt>
+            <dd>Cold Coffee With .....</dd>
+        </dl>
+    </summary>
+</body>
+</html>
