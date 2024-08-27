@@ -19,37 +19,60 @@
             </div>
         </div>
         <div class="right-section">
-            <div class="welcome">Welcome</div>
-            <form class="second-section" action="server.js">
-                <div>
-                    <label>Email</label>
+            <div class="welcome">Create an Account!</div>
+            <form action="server.js">
+                <div class="second-section">
                     <div>
-                        <input name="email" class="email" type="email" placeholder="Type Username">
-                    </div>
-                </div>
-                <div>
-                    <label>Password</label>
-                    <div>
-                        <input name="password" class="password" type="password" placeholder="Enter Password">
-                    </div>
-                    <div class="remember-forgot">
-                        <div class="remember">
-                            <input name="remember me" id="tick" class="checkbox" type="checkbox">
-                            <label for="tick" class="remember-text">Remember Login</label>
+                        <label>First Name</label>
+                        <div>
+                            <input name="fname" class="fname" type="text" placeholder="Type First Name">
                         </div>
-                        <div class="forgot">Forgot Password?</div>
                     </div>
+                    <div>
+                        <label>Last Name</label>
+                        <div>
+                            <input name="lname" class="lname" type="text" placeholder="Type Last Name">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <div>
+                            <input class="email" type="email" name="email" placeholder="Type Email">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Phone Number</label>
+                        <div>
+                            <input class="phone" type="text" name="phone number" placeholder="Enter Password">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Create Password</label>
+                        <div>
+                            <input class="password" type="password" name="created password" placeholder="Enter Password">
+                        </div>
+                    </div>
+                    <div>
+                        <label>Confirm Password</label>
+                        <div>
+                            <input type="password" name="confirm password" placeholder="Enter Password">
+                        </div>
+                    </div>
+                    
                 </div>
-                <button type="submit" class="login-btn">Log in</button>
+                    
+                <div class="btn">   
+                    <div class="account">Already have an account?<span class="sign-text">Login</span></div>
+                    <button type="submit" class="login-btn">Sign Up</button>
+                </div>
             </form>
             <div class="or">OR</div>
+            <div class="line"></div>
             <div class="icons">
                 <img src="faceb.jpeg" alt="" width="20">
                 <img src="mail.png" alt="" width="20">
                 <img src="twitter.png" alt="" width="20">
             </div>
-            <div class="line"></div>
-            <div class="account">Don't have account?<span class="sign-text">SignUp</span></div>
         </div>
     </div>
 </body>
