@@ -1,23 +1,8 @@
-*::after,
-*::before,
-*{
+/* styles.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.box{
-    /* background-color: red; */
-    margin-bottom: 100px;
-}
-ul{
-    margin-left: 500px;
-    font-size: 20px;
-    float: left;
-    appearance: none;
-    list-style-type: circle;
-}
-ol{
-    margin-left: 500px;
-    font-size: 20px;
-    float: left;
-}
+
