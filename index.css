@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.circle1{
+    border: 2px solid;
+    height: 30vh;
+    border-top-color: yellow;
+    width: 15vw;
+    margin: 50px auto;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, red 50%, black);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0),-2px -2px 10px black;
+    animation: rotate 2s linear infinite;
+
+}
+.circle2{
+    border: 2px solid;
+    border-bottom-color: aqua;
+    background-image: linear-gradient(to right, blue, black);
+    height: 20vh;
+    width: 10vw;
+    margin: 30px auto;
+    border-radius: 100%;
+    animation: rotate 2s linear infinite;
+
+}
+.circle3{
+    border: 2px solid;
+    border-left-color: azure;
+    background-color: green;
+    height: 10vh;
+    width: 5vw;
+    margin: 30px auto;
+    border-radius: 100%;
+    animation: rotate 2s linear infinite;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(180deg);
+    }
+}

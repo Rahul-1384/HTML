@@ -1,0 +1,21 @@
+p::first-letter{
+    font-size: 2rem;
+    color: red;
+}
+p{
+    color: green;
+    position: relative;
+}
+
+h1::after{
+    content: " Rahul";
+}
+h1::selection{
+    background-color: blueviolet;
+    color: white;
+    text-shadow: 2px 2px 10px red;
+    -webkit-text-fill-color: aqua;
+}
+h1::grammar-error{
+    color: red;
+}
