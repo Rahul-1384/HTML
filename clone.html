@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone</title>
+    <style> 
+        *::before,
+        *::after,
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-color: rgb(247, 244, 237);
+            width: 100vw;
+            height: 100vh;
+        }
+        .navbar{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 13rem;
+            align-items: center;
+            padding: 1.5rem 0;
+        }
+        .right-section{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            align-items: center;
+        }
+        .hero-section{
+            border: 2px solid black;    
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+        }
+        .hero-left-section{
+            display: flex;
+            flex-wrap: wrap;
+            margin: 5rem 0 0 12rem;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        .heading{
+            font-size: 7rem;   
+            line-height: 6rem;
+            
+        }
+        .para{
+            font-size: 1.6rem;
+        }
+        .btn{
+            cursor: pointer;
+            background-color: black;
+            width: fit-content;
+            color: white;
+            font-size: 1.2rem;
+            padding: 0.9rem 3rem;
+            border-radius: 50px;
+        }
+        #btn-get-started{
+            padding: 0.6rem 0.9rem;
+            font-size: 1rem;
+        }
+        .nav-heading{
+            font-size: 2.2rem;
+            font-weight: bolder;
+            user-select: none;
+        }
+        footer{
+            display: flex;
+            margin: 1.7rem;
+            justify-content: center;
+            gap: 1rem;
+            font-size: 0.9rem;
+        }
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-heading">Medium</div>
+            <div class="right-section">
+                <div style="cursor: pointer;">Our story</div>
+                <div style="cursor: pointer;">Membership</div>
+                <div style="cursor: pointer;">Write</div>
+                <div style="cursor: pointer;">Sign in</div>
+                <div class="btn" id="btn-get-started">Get started</div>
+            </div>
+        </div>
+        <div class="hero-section">
+            <div class="hero-left-section">
+                <p class="heading">Human<br> stories & ideas</p>
+                <p class="para">A place to read, write, and deepen your understanding</p>
+                <div class="btn">Start reading</div>
+            </div>
+            <div>
+                <img src="g.webp" alt="" width="400">
+            </div>
+        </div>
+        <footer>
+            <div><a href="#">Help</a></div>
+            <div><a href="#">Status</a></div>
+            <div><a href="#">About</a></div>
+            <div><a href="#">Careers</a></div>
+            <div><a href="#">Press</a></div>
+            <div><a href="#">Blog</a></div>
+            <div><a href="#">Privacy</a></div>
+            <div><a href="#">Terms</a></div>
+            <div><a href="#">Text to speech</a></div>
+            <div><a href="#">Teams</a></div>
+        </footer>
+    </div>
+</body>
+</html>
